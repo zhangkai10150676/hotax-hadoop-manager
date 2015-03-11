@@ -16,10 +16,10 @@
 
 package service;
 
+import domain.City;
+import domain.HotelSummary;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import sample.data.jpa.domain.City;
-import sample.data.jpa.domain.HotelSummary;
 
 public interface CityService {
 
